@@ -7,13 +7,17 @@ importance: 5
 abstract: "Leave empty if you don't want to feature an abstract. "
 ---
 
-Страница 1
-[text](url)
+Встановлення linux в серидовищі Windiws
 ***
- `текст`
+ 
+ `wsl --list --online`  показати список доступних дистрибутивів
+ `wsl --install Ubuntu`
+ 
 > 
 ***
 
-Текст 2
+Інформація про безпроаодне підключення
+***
+netsh wlan show interfaces
 
 **I<стока>**
