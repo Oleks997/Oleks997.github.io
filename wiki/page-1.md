@@ -14,7 +14,7 @@ abstract: "Leave empty if you don't want to feature an abstract. "
  
  `wsl --install Ubuntu ` встановлення вибраного дистрибутива
 
- `wsl                  ` Запуск емулятора Linux
+ `wsl `                  Запуск емулятора Linux
  
 ***
 ***
