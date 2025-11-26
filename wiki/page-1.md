@@ -12,13 +12,12 @@ abstract: "Leave empty if you don't want to feature an abstract. "
  
  `wsl --list --online`  показати список доступних дистрибутивів
  
- `wsl --install Ubuntu`
+ `wsl --install Ubuntu` 
  
-> 
 ***
 
 Інформація про безпроаодне підключення
 ***
-netsh wlan show interfaces
+`netsh wlan show interfaces`
 
-**I<стока>**
+
