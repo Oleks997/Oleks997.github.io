@@ -10,9 +10,11 @@ abstract: "Leave empty if you don't want to feature an abstract. "
 Встановлення linux в серидовищі Windiws
 ***
  
- `wsl --list --online`  показати список доступних дистрибутивів
+ `wsl --list --online  `  показати список доступних дистрибутивів
  
- `wsl --install Ubuntu` 
+ `wsl --install Ubuntu ` встановлення вибраного дистрибутива
+
+ `wsl                  ` Запуск емулятора Linux
  
 ***
 ***
