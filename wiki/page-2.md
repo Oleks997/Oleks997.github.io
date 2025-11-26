@@ -8,6 +8,8 @@ abstract: "Leave empty if you don't want to feature an abstract. "
 ---
 
  linux
-***
+ ***
+ ***
 
-`'alias ll= ls -laF' `
+`alias ll='ls -lFa --color' `   створення власного скорочення команди
+
