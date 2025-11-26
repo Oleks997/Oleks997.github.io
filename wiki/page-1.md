@@ -11,6 +11,7 @@ abstract: "Leave empty if you don't want to feature an abstract. "
 ***
  
  `wsl --list --online`  показати список доступних дистрибутивів
+ 
  `wsl --install Ubuntu`
  
 > 
