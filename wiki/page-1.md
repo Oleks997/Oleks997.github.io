@@ -15,8 +15,9 @@ abstract: "Leave empty if you don't want to feature an abstract. "
  `wsl --install Ubuntu` 
  
 ***
-
+***
 Інформація про безпроаодне підключення
+
 ***
 `netsh wlan show interfaces`
 
