@@ -16,3 +16,13 @@ abstract: "Leave empty if you don't want to feature an abstract. "
 `find /mnt/monitor/ -mtime +120 -exec rm {} \;`  знайти та видалити старі файли
 
 ` du -sh`  розмір поточного каталога 
+
+***
+
+`du -sh ./*`   Розмір лише каталогів у поточній директорії
+
+Пояснення:
+du — disk usage
+-s — підсумок для кожного каталогу
+-h — людиночитний формат (KB/MB/GB)
+*/ — тільки директорії
