@@ -23,8 +23,11 @@ abstract: "Leave empty if you don't want to feature an abstract. "
 
 Пояснення:
 du — disk usage
+
 -s — підсумок для кожного каталогу
+
 -h — людиночитний формат (KB/MB/GB)
+
 */ — тільки директорії
 
 ***
