@@ -15,6 +15,12 @@ abstract: "Leave empty if you don't want to feature an abstract. "
 
 `find /mnt/monitor/ -mtime +120 -exec rm {} \;`  знайти та видалити старі файли
 
+`find . -type f -size -1k` пошук файлів, розміром < 1k
+-type f — тільки файли
+
+-size -1k — розмір менше 1 Кібібайта (1024 байт)
+(- — менше, + — більше, без знака — рівно)
+
 `du -sh`  розмір поточного каталога 
 
 ***
