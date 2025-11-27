@@ -8,10 +8,9 @@ abstract: "Leave empty if you don't want to feature an abstract. "
 ---
 
  linux
- ***
- 
- ***
 
+***
+***
 `alias ll='ls -lFa --color' `   створення власного скорочення команди
 
 `find /mnt/monitor/ -mtime +120 -exec rm {} \;`  знайти та видалити старі файли
