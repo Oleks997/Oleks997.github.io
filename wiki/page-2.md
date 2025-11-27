@@ -37,3 +37,7 @@ ping нефрагментовано `-M do` ,
 
 кількість 10 `-c 10`,  
 пакетів   розмір 1572  `-s 1572`
+
+***
+
+`root@tacacs:~# for i in {0..15}; do echo "port $i ont-auto-find enable"; done;`  вивід цикла з рядка 
