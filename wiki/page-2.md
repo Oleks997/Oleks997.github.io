@@ -34,5 +34,6 @@ du — disk usage
 
 `ping -c 10 -M do -s 1572 <hostname_or_ip>`  
 ping нефрагментовано `-M do` , 
+
 кількість 10 `-c 10`,  
 пакетів   розмір 1572  `-s 1572`
