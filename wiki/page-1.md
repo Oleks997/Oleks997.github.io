@@ -28,6 +28,7 @@ SSH
 
 ***
 `ssh -t ed25519_sk -C "mail@examole.com" ` Створення ключа для пыдключення по SSH
+
 `ssh -i C:\Users\sun\.ssh\id_ed25519_sk msn@192.168.56.234`  Використання ключа, для підключення по SSH
 
 З приводу yubico
