@@ -56,5 +56,7 @@ ping нефрагментовано `-M do` ,
     -z: для сжатия применяется утилита gzip
 
     -j: для сжатия применяется утилита bzip2
+    
 `tar -czvf archive.tar.gz hello.txt image.png index.html`  
+
 `tar -xvf archive.tar.gz` розахівувати
