@@ -71,12 +71,12 @@ tar -cvf ~/archive.tar ~/Documents/hello.txt ~/Documents/image.png ~/Documents/i
 
 Получим информацию по созданному архиву:
 
-eugene@Eugene:~$ tar -tvf archive.tar
+`eugene@Eugene:~$ tar -tvf archive.tar
 -rw-rw-r-- eugene/eugene  1572 2024-03-09 11:39 hello.txt
 -rw-rw-r-- eugene/eugene 177489 2024-02-26 09:49 image.png
 -rw-rw-r-- eugene/eugene     67 2024-02-23 23:07 index.html
 eugene@Eugene:~$ 
-
+`
 Распакуем вышесозданный файл архива:
 
 eugene@Eugene:~$ tar -xvf archive.tar
