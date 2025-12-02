@@ -47,3 +47,14 @@ ping нефрагментовано `-M do` ,
 ***
 
 `root@tacacs:~# for i in {0..15}; do echo "port $i ont-auto-find enable"; done;`  вивід цикла з рядка 
+
+***
+`tar -cvf /tmp/home.tar /home`  заархівувати каталог /home
+
+`tar -cvf /tmp/system-backup.tar /home /srv /root /var`   заархівувати каталог /home та /srv /root /var
+
+    -z: для сжатия применяется утилита gzip
+
+    -j: для сжатия применяется утилита bzip2
+`tar -czvf archive.tar.gz hello.txt image.png index.html`  
+`tar -xvf archive.tar.gz` розахівувати
