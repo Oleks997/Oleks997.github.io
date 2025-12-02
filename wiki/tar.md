@@ -1,15 +1,6 @@
----
-title: "tar Linux"
-date: 2025-12-02
-description: "A relevant description (Used for SEO and search)"
-tags: tag1, tag2, tag3, these are used for search
-importance: 5
-abstract: "Leave empty if you don't want to feature an abstract. "
----
-
 Команда tar (сокращение от "tape archive" или "ленточный архив") позволяет объединить несколько файлов в один архив. Она имеет следующую форму:
 
-`tar [options] [имя_архива] [файлы или папки для архивации]`
+tar [options] [имя_архива] [файлы или папки для архивации]
 
 Вначале команде передается набор опций. Далее идет имя архива, в который надо поместить файлы/папки, или который, наоборот, надо распаковать.
 
@@ -51,8 +42,7 @@ abstract: "Leave empty if you don't want to feature an abstract. "
 
 Заархивируем эти файлы в архив под именем "archive.tar":
 
-`eugene@Eugene:~$ tar -cvf archive.tar hello.txt image.png index.html`
-
+eugene@Eugene:~$ tar -cvf archive.tar hello.txt image.png index.html
 hello.txt
 image.png
 index.html
@@ -61,15 +51,15 @@ index.html
 
 Здесь предполагается, что мы находимся в домашнем каталоге, и файлы для архивирования лежат в этом каталоге, и файл архива создается в этом каталоге. Однако конкретные пути могут различаться. И в этом случае мы можем передать полные пути к файлам. Например, если файлы у нас лежат в папке "Documents":
 
-`tar -cvf ~/archive.tar ~/Documents/hello.txt ~/Documents/image.png ~/Documents/index.html`
+tar -cvf ~/archive.tar ~/Documents/hello.txt ~/Documents/image.png ~/Documents/index.html
 
 Получим информацию по созданному архиву:
 
-`eugene@Eugene:~$ tar -tvf archive.tar
+eugene@Eugene:~$ tar -tvf archive.tar
 -rw-rw-r-- eugene/eugene  1572 2024-03-09 11:39 hello.txt
 -rw-rw-r-- eugene/eugene 177489 2024-02-26 09:49 image.png
 -rw-rw-r-- eugene/eugene     67 2024-02-23 23:07 index.html
-eugene@Eugene:~$ `
+eugene@Eugene:~$ 
 
 Распакуем вышесозданный файл архива:
 
@@ -215,3 +205,4 @@ tar -czvg backup/snapshot-file -f backup/backup-11032024.tar.gz  test
 
 tar -xzvf backup/backup-initial.tar.gz
 tar -xzvf backup/backup-11032024.tar.gz 
+
