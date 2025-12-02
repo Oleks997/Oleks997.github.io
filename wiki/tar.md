@@ -1,7 +1,7 @@
 ---
 title: "Tar linux"
 date: 2025-12-02
-description: "Команда tar (сокращение от "tape archive" или "ленточный архив") позволяет объединить несколько файлов в один архив"
+description: "Команда tar (сокращение от tape archive или ленточный архив) позволяет объединить несколько файлов в один архив"
 tags: tag1, tag2, tag3, these are used for search
 importance: 5
 abstract: "tar [options] [имя_архива] [файлы или папки для архивации]"
