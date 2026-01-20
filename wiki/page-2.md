@@ -63,4 +63,5 @@ ping нефрагментовано `-M do` ,
 
 ***
 `for i in {1..24}; do n=$((300 + i)); echo "vlan $n"; echo "fixed 25-28";echo "untagged 1-24"; echo "exit"; done`
+
 виконання скрипта в циклі
